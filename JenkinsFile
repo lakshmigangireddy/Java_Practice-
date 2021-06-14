@@ -4,8 +4,7 @@ pipeline {
    stages{
      stage('Git checkout') {
      steps{
-            git branch: 'main', credentialsId: 'github-cred', url: 'https://github.com/demodevops2/devopscls25repo.git'
-            }
+           git branch: 'main', credentialsId: 'github-id', url: 'https://github.com/lakshmigangireddy/Java_Practice-.git'            }
      
      }
 
